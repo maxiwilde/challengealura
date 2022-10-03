@@ -1,0 +1,41 @@
+body{
+    background: color #e5e5e5;;
+}
+
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;   
+}
+.imput-texto{
+    margin-top: 90px;
+}
+.mensaje{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url(/img/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+}
+.copiar{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 205px;
+}
+.botones{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+}
+.encriptar{
+    background-color: darkblue;
+    color: white;
+}
+.desencriptar{
+    margin-left: 30px;
+}
+.informacion{
+    font-size: 15px;
+}
